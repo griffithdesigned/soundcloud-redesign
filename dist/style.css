@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;700&display=swap');
+
+:root {
+    --orange: #F55503;
+    --black: #141414;
+    --offwhite: #F2F2F2;
+    --gray: #999999;
+    --purple: #8F0892;
+    --gradient: linear-gradient(to right, #F55503 #8F0892);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Khula', sans-serif;
+    background-color: var(--offwhite);
+    color: var(--black);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
